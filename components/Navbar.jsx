@@ -3,10 +3,15 @@ import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer } f
 import { FcMenu, FcHome, FcAbout } from 'react-icons/fc';
 import { BsSearch } from 'react-icons/bs';
 import { FiKey } from 'react-icons/fi';
+// import {covoLogo} from '../assets/images/covoLogo';
+
 
 const Navbar = () => {
-    <Flex p='2' borderBottom='1px' borderColo='gray.100'>
-        <Box fontSize='3x1 ' color='blue.400' fontWeight='bold'>
+    return (
+
+        <Flex p='2' borderBottom='1px' borderColo='gray.100'>
+        <Box fontSize='xl' color='blue.400' fontWeight='bold'>
+        {/* <Image src='./covoLogo.png' alt='Logo-image' /> */}
             <Link href='/' paddingLeft='2'>CavaTour</Link>
         </Box>
         <Spacer />
@@ -31,6 +36,9 @@ const Navbar = () => {
           
         </Box>
     </Flex>
+
+    )
+    
 };
 
 export default Navbar;

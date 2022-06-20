@@ -11,7 +11,7 @@ const Layout = ({ children}) => (
     </Head>
     <Box maxWidth="1280px" m="auto">
         <header>
-            Navbar goes here
+         
             <Navbar/>
         </header>
         <main>
@@ -19,7 +19,7 @@ const Layout = ({ children}) => (
         </main>    
 
         <footer>
-          Footer goes here 
+         
             <Footer/>
         </footer>
     </Box>
