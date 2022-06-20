@@ -34,4 +34,4 @@ const Property = ({property: {coverPhoto, price, rentFrequency, rooms, title, ba
     </Link>
 );
 
-export default Property
+export default Property;
