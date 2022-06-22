@@ -5,9 +5,12 @@ import {MdCancel} from 'react-icons/md';
 
 import { filterData, getFilterValues } from "../utils/filterData";
 
-const searchProperties = (getFilterValues) => {
+const searchProperties = (filterValues) => {
 
 }
+
+
+
 
 const SearchFilters = () => {
     const [filters, setFilters] = useState({filterData});
