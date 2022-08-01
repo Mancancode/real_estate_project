@@ -20,10 +20,10 @@ const Navbar = () => {
                 <MenuButton as={IconButton} icon={<FcMenu/>} variant='outline' color='red.400'/>
                 <MenuList>
                     <Link href='/' passHref>
-                        <MenuItem icon={<FcHome/>}>Home</MenuItem>
+                        <MenuItem icon={<FcHome/>}>Home of the page</MenuItem>
                     </Link>
                     <Link href='/search' passHref>
-                        <MenuItem icon={<BsSearch/>}>Search</MenuItem>
+                        <MenuItem icon={<BsSearch/>}>Search here</MenuItem>
                     </Link>
                     <Link href='/search?purpose=for-sale' passHref>
                         <MenuItem icon={<FcAbout/>}>Buy Property</MenuItem>
