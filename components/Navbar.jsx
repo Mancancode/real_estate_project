@@ -5,11 +5,11 @@ import { BsSearch } from 'react-icons/bs';
 import { FiKey } from 'react-icons/fi';
 // import {covoLogo} from '../assets/images/covoLogo';
 
-
+ 
 const Navbar = () => {
     return (
 
-        <Flex p='2' borderBottom='1px' borderColo='gray.100'>
+        <Flex p='2' borderBottom='1px' borderColor='gray.100'>
         <Box fontSize='xl' color='blue.400' fontWeight='bold'>
         {/* <Image src='./covoLogo.png' alt='Logo-image' /> */}
             <Link href='/' paddingLeft='2'>CavaTour</Link>
