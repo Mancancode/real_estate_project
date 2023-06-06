@@ -12,11 +12,11 @@ const searchProperties = (filterValues) => {
 
 
 
-const SearchFilters = () => {
-    const [filters, setFilters] = useState({filterData});
+const SearchFilter = () => {
+    const [filter, setFilters] = useState({filterData});
     return (
         < Flex bg="gray.100" p="4" justifyContent="center" flexWrap="wrap">
-            {filters.map((filter) =>(
+            {filter.map((filter) =>(
                 <Box key={filter.queryName}>
                     <Select 
                     placeholder={filter.placeholder}
